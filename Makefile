@@ -1,4 +1,4 @@
-include settings.mk
+-include .settings.mk
 
 help:
 	@echo The following makefile targets are available:
