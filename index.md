@@ -26,9 +26,9 @@ If your protocol has an interesting question, [schedule a meeting](https://calen
 
 ## Resources
 
-- [Schedule a meeting](https://calendly.com/0xidm) to chat via Discord or Telegram.
-- [Telegram](https://tg.me/x_idm)
 - [Github](https://github.com/0xidm)
 - [Website](ipns://0xidm.eth/)
+- [Telegram](https://tg.me/x_idm)
+- [Schedule a meeting](https://calendly.com/0xidm) to chat via Discord or Telegram.
 
-[This website](ipns://0xidm.eth/) was updated at RENDER_TIMESTAMP
+This website was updated at RENDER_TIMESTAMP
