@@ -5,7 +5,7 @@ help:
 	@echo
 	@grep -e '^\w\S\+\:' Makefile | sed 's/://g' | cut -d ' ' -f 1
 		
-all: clean build publish refresh-ipns
+all: clean build publish refresh-ipns ipfs-pin
 	@echo OK
 
 clean:
@@ -36,6 +36,11 @@ key:
 
 open:
 	@open _site/index.html
+
+.PHONY: assets
+assets:
+	@IPFS_API=$(IPFS_API) ./bin/add-ipfs.sh -k $(IPFS_KEY) -f assets/arbitrum-dao-stip-results.html
+	@IPFS_API=$(IPFS_API) ./bin/add-ipfs.sh -k $(IPFS_KEY) -p
 
 build-readme:
 	@./bin/build-pandoc.sh default Readme.md
