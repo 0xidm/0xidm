@@ -1,7 +1,6 @@
 ### Hi there 👋
 
 - [ipns://0xidm.eth](ipns://0xidm.eth)
-- ipns://0xidm.eth
 - [legacy https](https://0xidm.eth.limo)
 
 <!--
